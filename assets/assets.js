@@ -16,7 +16,7 @@ import graphics_icon from "./graphics-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
 import logo_dark from "./logo_dark.png";
-import mahbub from "./mahbub.jpg";
+import mahbub from "./mymona.jpg";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import menu_black from "./menu-black.png";
