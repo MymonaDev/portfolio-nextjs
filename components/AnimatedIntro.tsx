@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 // Array of developer titles (without the article "a")
 const titles = [
-  "Kazi Mahbubur Rahman",
+  "Mymona Khatun",
   "Front-End Developer",
   "Backend Developer",
   "Full-Stack Developer",

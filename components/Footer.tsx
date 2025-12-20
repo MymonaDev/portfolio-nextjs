@@ -36,11 +36,10 @@ const Footer = () => {
       {showButton && (
         <div
           id="icon-box"
-          className={`hidden bg-[#0fabca] text-white p-3 rounded-full hover:bg-[#0d9bb8] hover:text-white cursor-pointer fixed lg:bottom-2 right-6 lg:flex justify-center items-center transition-all duration-500 transform ${
-            showButton
+          className={`hidden bg-[#0fabca] text-white p-3 rounded-full hover:bg-[#0d9bb8] hover:text-white cursor-pointer fixed lg:bottom-2 right-6 lg:flex justify-center items-center transition-all duration-500 transform ${showButton
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-12"
-          }`}
+            }`}
           onClick={handleScrollToTop}
         >
           <ArrowUp />
@@ -48,7 +47,7 @@ const Footer = () => {
       )}
 
       <div className="border-t text-center">
-        <h2 className="my-5 text-3xl font-bold">Kazi Mahbubur Rahman</h2>
+        <h2 className="my-5 text-3xl font-bold">Mymona Khatun</h2>
         <div className="flex justify-center items-center gap-5 my-5">
           <Link href="#about">About</Link>
           <Link href="#projects">Projects</Link>
@@ -66,7 +65,7 @@ const Footer = () => {
           </Link>
         </div>
         <p>
-          &copy; Kazi Mahbubur Rahman {new Date().getFullYear()} || All rights
+          &copy; Mymona Khatun {new Date().getFullYear()} || All rights
           reserved.
         </p>
       </div>

@@ -25,9 +25,9 @@ const aclonica = Aclonica({
 });
 
 export const metadata: Metadata = {
-  title: "Kazi Mahbubur Rahman - MERN Stack Developer",
+  title: "Mymona Khatun - MERN Stack Developer",
   description:
-    "Kazi Mahbubur Rahman is a frontend focused MERN Stack Developer",
+    "Mymona Khatun is a frontend focused MERN Stack Developer",
   keywords: [
     "MERN Stack Developer",
     "Full Stack Developer",
@@ -35,27 +35,27 @@ export const metadata: Metadata = {
     "Next.js Developer",
     "Software Engineer",
   ],
-  authors: [{ name: "Kazi Mahbubur Rahman" }],
-  creator: "Kazi Mahbubur Rahman",
+  authors: [{ name: "Mymona Khatun" }],
+  creator: "Mymona Khatun",
   openGraph: {
-    title: "Kazi Mahbubur Rahman",
+    title: "Mymona Khatun",
     description:
-      "Kazi Mahbubur Rahman is a frontend focused MERN Stack Developer",
+      "Mymona Khatun is a frontend focused MERN Stack Developer",
     type: "website",
     images: [
       {
         url: ogimage.src, // ✅ Fix: Use .src to get the string URL
         width: 1200,
         height: 630,
-        alt: "Kazi Mahbubur Rahman",
+        alt: "Mymona Khatun",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kazi Mahbubur Rahman - MERN Stack Developer",
+    title: "Mymona Khatun - MERN Stack Developer",
     description:
-      "Kazi Mahbubur Rahman is a frontend focused MERN Stack Developer",
+      "Mymona Khatun is a frontend focused MERN Stack Developer",
     images: [ogimage.src],
   },
   robots: {

@@ -150,7 +150,7 @@ const Home = () => {
                 <Image
                   className="rounded-full w-32"
                   src={assets.mahbub}
-                  alt="Kazi Mahbubur Rahman"
+                  alt="Mymona Khatun"
                   priority
                   sizes="(max-width: 768px) 100vw, 128px"
                   width={128}
@@ -300,7 +300,7 @@ const Home = () => {
         transition={{ duration: 0.6, delay: 0.5 }}
         className="text-4xl font-bold text-slate-900 px-2 sm:p-0"
       >
-        Hi, I&apos;m Kazi Mahbubur Rahman
+        Hi, I&apos;m Mymona Khatun
       </motion.h3> */}
       <motion.p
         initial={{ y: -20, opacity: 0 }}

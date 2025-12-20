@@ -28,7 +28,7 @@ const About = () => {
           <ProfilePic />
           {/* <Image
                            src={assets.mahbub}
-                           alt="Kazi Mahbubur Rahman"
+                           alt="Mymona Khatun"
                            className="mx-auto shadow-md rounded-lg"
                          /> */}
         </motion.div>

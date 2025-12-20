@@ -91,11 +91,10 @@ export default function Navbar() {
         />
       </div>
       <header
-        className={`w-full fixed top-0 z-50 transition-all duration-500 ${
-          hasScrolled
+        className={`w-full fixed top-0 z-50 transition-all duration-500 ${hasScrolled
             ? "bg-white/70 dark:bg-gray-900/70 backdrop-blur-lg backdrop-saturate-150 shadow-lg"
             : "bg-transparent"
-        }`}
+          }`}
       >
         <nav
           className={`sm:px-6 lg:px-8 container m-auto max-w-[60.5rem] lg:max-w-full lg:mx-auto after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-[f3f4f6]-200 lg:after:hidden z-50`}
@@ -113,7 +112,7 @@ export default function Navbar() {
                 className="font-Aclonica font-bold text-lg md:text-2xl flex items-center gap-2 whitespace-nowrap py-3 focus:outline-none lg:flex-1 dark:text-white"
                 href="/"
               >
-                Kazi Mahbubur Rahman
+                Mymona Khatun
               </Link>
 
               <ul
@@ -140,11 +139,10 @@ export default function Navbar() {
                       }}
                       onMouseLeave={() => handleMouseLeave()}
                       className={`flex added transition-timing items-center gap-2 py-2.5 transition-colors 
-                px-4 xl:px-6 2xl:px-8 dark:text-white hover:rounded-3xl dark:hover:text-white ${
-                  section.id === activeSection
-                    ? "rounded-full bg-[#0fabca] backdrop-blur-sm text-white"
-                    : ""
-                }`}
+                px-4 xl:px-6 2xl:px-8 dark:text-white hover:rounded-3xl dark:hover:text-white ${section.id === activeSection
+                          ? "rounded-full bg-[#0fabca] backdrop-blur-sm text-white"
+                          : ""
+                        }`}
                       href={`#${section.id}`}
                     >
                       <span className="font-Roboto uppercase text-sm xl:text-base">
@@ -168,18 +166,16 @@ export default function Navbar() {
                 }
               >
                 <LuSun
-                  className={` w-5 h-5 sm:w-6 sm:h-6 ${
-                    theme === "dark"
+                  className={` w-5 h-5 sm:w-6 sm:h-6 ${theme === "dark"
                       ? "translate-y-[4px] rotate-0"
                       : "translate-y-[-80px] rotate-[160deg]"
-                  } transition-all duration-700 ease-in-out`}
+                    } transition-all duration-700 ease-in-out`}
                 />
                 <RiMoonClearLine
-                  className={`w-5 h-5 sm:w-5 sm:h-5 ${
-                    theme === "light"
+                  className={`w-5 h-5 sm:w-5 sm:h-5 ${theme === "light"
                       ? "translate-y-[-19px] rotate-0"
                       : "translate-y-[80px] rotate-[-260deg]"
-                  } transition-all duration-700 ease-in-out`}
+                    } transition-all duration-700 ease-in-out`}
                 />
               </div>
 
