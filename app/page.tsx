@@ -12,6 +12,9 @@ const Projects = dynamic(() => import("@/components/Projects"), {
 const Skills = dynamic(() => import("@/components/Skills"), {
   loading: () => <div className="min-h-[25rem]" />,
 });
+const Guestbook = dynamic(() => import("@/components/Guestbook"), {
+  loading: () => <div className="min-h-[25rem]" />,
+});
 const ContactSection = dynamic(() => import("@/components/ContactSection"), {
   loading: () => <div className="min-h-[25rem]" />,
 });
@@ -28,6 +31,7 @@ export default function Home() {
       <Projects />
       <Skills />
       {/* <Reviews /> */}
+      <Guestbook />
       <ContactSection />
       <Footer />
     </main>
